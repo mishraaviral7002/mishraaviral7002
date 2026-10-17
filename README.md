@@ -66,6 +66,5 @@
 
 ---
 
-### Connect with Me
-* LinkedIn: [Your LinkedIn Profile URL]
-* Email: [Your Email Address]
+* LinkedIn: [Aviral Mishra](https://www.linkedin.com/in/aviral-mishra-9ba02b348/)
+* Email: [aviralmishra7002@gmail.com](mailto:aviralmishra7002@gmail.com)
