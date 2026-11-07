@@ -1,70 +1,107 @@
-<h1 align="center">Hi, I'm Aviral Mishra</h1>
-<h3 align="center">IT Engineering Student & FullStack Developer</h3>
+<!-- Header banner -->
+<div align="center">
+  <img width="100%" src="https://capsule-render.vercel.app/api?type=waving&height=230&color=0:6D5BF6,100:0E9F92&text=Aviral%20Mishra&fontColor=ffffff&fontSize=62&fontAlignY=36&desc=Full-stack%20developer%20building%20things%20people%20use%20together&descSize=18&descAlignY=58&animation=fadeIn" alt="Aviral Mishra banner" />
 
-<br>
+  <a href="https://github.com/mishraaviral7002">
+    <img src="https://readme-typing-svg.demolab.com?font=Fira+Code&weight=500&size=21&duration=3200&pause=900&color=6D5BF6&center=true&vCenter=true&width=640&lines=IT+Engineering+student;Full-stack+developer;Building+real-time+collaborative+apps;Solving+problems+on+LeetCode" alt="Typing animation" />
+  </a>
 
-<p align="center">
-  <img src="https://komarev.com/ghpvc/?username=mishraaviral7002&label=Profile%20Views&color=0e75b6&style=flat" alt="Profile Views" />
-  <a href="https://github.com/mishraaviral7002"><img src="https://img.shields.io/badge/GitHub-Follow%20Me-blue?style=flat&logo=github" alt="GitHub Follow"></a>
-</p>
+  <p>
+    <img src="https://komarev.com/ghpvc/?username=mishraaviral7002&label=Profile%20Views&color=6D5BF6&style=flat" alt="Profile views" />
+    <a href="https://github.com/mishraaviral7002?tab=followers"><img src="https://img.shields.io/github/followers/mishraaviral7002?style=flat&logo=github&color=0E9F92" alt="Followers" /></a>
+  </p>
 
----
-
-### About Me
-* I am currently pursuing a degree in Information Technology Engineering.
-* Passionate about frontend development, web technologies, and competitive programming.
-* Interested in building performant web applications and solving algorithmic problems.
-
----
-
-### Tech Stack & Tools
-
-<p align="center">
-  <!-- Languages -->
-  <img src="https://img.shields.io/badge/JavaScript-F7DF1E?style=for-the-badge&logo=javascript&logoColor=black" />
-  <img src="https://img.shields.io/badge/Python-3776AB?style=for-the-badge&logo=python&logoColor=white" />
-  <img src="https://img.shields.io/badge/HTML5-E34F26?style=for-the-badge&logo=html5&logoColor=white" />
-  <img src="https://img.shields.io/badge/CSS3-1572B6?style=for-the-badge&logo=css3&logoColor=white" />
-  
-  <br>
-  
-  <!-- Frontend & Frameworks -->
-  <img src="https://img.shields.io/badge/React-20232A?style=for-the-badge&logo=react&logoColor=61DAFB" />
-  <img src="https://img.shields.io/badge/Tailwind_CSS-38B2AC?style=for-the-badge&logo=tailwind-css&logoColor=white" />
-  <img src="https://img.shields.io/badge/Node.js-43853D?style=for-the-badge&logo=node.js&logoColor=white" />
-  
-  <br>
-  
-  <!-- Databases & Developer Tools -->
-  <img src="https://img.shields.io/badge/MongoDB-4EA94B?style=for-the-badge&logo=mongodb&logoColor=white" />
-  <img src="https://img.shields.io/badge/Firebase-039BE5?style=for-the-badge&logo=firebase&logoColor=white" />
-  <img src="https://img.shields.io/badge/Git-F05032?style=for-the-badge&logo=git&logoColor=white" />
-  <img src="https://img.shields.io/badge/GitHub-100000?style=for-the-badge&logo=github&logoColor=white" />
-  <img src="https://img.shields.io/badge/WebStorm-000000?style=for-the-badge&logo=webstorm&logoColor=white" />
-  <img src="https://img.shields.io/badge/Render-46E3B7?style=for-the-badge&logo=render&logoColor=black" />
-</p>
+  <p>
+    <a href="https://www.linkedin.com/in/aviral-mishra-9ba02b348/"><img src="https://img.shields.io/badge/LinkedIn-Connect-0A66C2?style=for-the-badge&logo=linkedin&logoColor=white" alt="LinkedIn" /></a>
+    <a href="mailto:aviralmishra7002@gmail.com"><img src="https://img.shields.io/badge/Email-Say%20hello-6D5BF6?style=for-the-badge&logo=gmail&logoColor=white" alt="Email" /></a>
+    <a href="https://converge-alpha-pearl.vercel.app/"><img src="https://img.shields.io/badge/Live-Converge-0E9F92?style=for-the-badge&logo=vercel&logoColor=white" alt="Converge live demo" /></a>
+  </p>
+</div>
 
 ---
 
-### GitHub Stats
+## 👋 About me
 
-<p align="center">
-  <img height="180px" src="https://github-readme-stats.vercel.app/api?username=mishraaviral7002&show_icons=true&theme=tokyonight&hide_border=true&include_all_commits=true&count_private=true" />
-  <img height="180px" src="https://github-readme-stats.vercel.app/api/top-langs/?username=mishraaviral7002&layout=compact&theme=tokyonight&hide_border=true" />
-</p>
+I'm an Information Technology Engineering student who loves turning ideas into working web apps. I enjoy the frontend, but I like owning the whole stack: auth, sessions, real-time features and deployment. When I'm not building, I'm working through algorithm problems.
 
-<p align="center">
-  <img src="https://github-readme-streak-stats.herokuapp.com/?user=mishraaviral7002&theme=tokyonight&hide_border=true" />
-</p>
+- 🔭 **Building:** [Converge](https://github.com/mishraaviral7002/Converge), a real-time collaborative whiteboard
+- 🔐 **Recently worked on:** authentication, cookie-based sessions and room-based collaboration
+- 🤖 **Next up:** adding an AI assistant to Converge
+- 🧩 **Practicing:** data structures and algorithms
 
 ---
 
-### Competitive Programming
-<p align="center">
-  <img src="https://img.shields.io/badge/LeetCode-000000?style=for-the-badge&logo=LeetCode&logoColor=#F89F1B" alt="LeetCode">
-</p>
+## 🚀 Featured project
+
+<table>
+  <tr>
+    <td width="62%" valign="top">
+      <h3>🎨 Converge</h3>
+      <p><b>A shared whiteboard where teams think together.</b> Built on tldraw, with live multi-user editing in shared rooms and secure sign-in before anyone can join a board.</p>
+      <ul>
+        <li>Room-based collaboration: the same board ID puts people in the same room</li>
+        <li>Authentication and cookie-based session handling</li>
+        <li>Frontend on Vercel, backend on Render</li>
+      </ul>
+      <a href="https://converge-alpha-pearl.vercel.app/"><b>Live demo</b></a> · <a href="https://github.com/mishraaviral7002/Converge"><b>Source code</b></a>
+    </td>
+    <td width="38%" align="center" valign="middle">
+      <img src="https://skillicons.dev/icons?i=react,vite,nodejs,express,vercel&theme=dark" alt="Converge tech" /><br /><br />
+      <sub><b>Status:</b> in active development</sub>
+    </td>
+  </tr>
+</table>
+
+<div align="center">
+  <a href="https://github.com/mishraaviral7002/Converge"><img src="https://github-readme-stats.vercel.app/api/pin/?username=mishraaviral7002&repo=Converge&theme=tokyonight&hide_border=true" alt="Converge repo card" /></a>
+  <a href="https://github.com/mishraaviral7002/URL-SHORTNER"><img src="https://github-readme-stats.vercel.app/api/pin/?username=mishraaviral7002&repo=URL-SHORTNER&theme=tokyonight&hide_border=true" alt="URL-SHORTNER repo card" /></a>
+</div>
 
 ---
 
-* LinkedIn: [Aviral Mishra](https://www.linkedin.com/in/aviral-mishra-9ba02b348/)
-* Email: [aviralmishra7002@gmail.com](mailto:aviralmishra7002@gmail.com)
+## 🛠️ Tech stack
+
+<div align="center">
+
+**Languages**<br />
+<img src="https://skillicons.dev/icons?i=js,py,html,css&perline=8" alt="Languages" />
+
+**Frontend**<br />
+<img src="https://skillicons.dev/icons?i=react,vite,tailwind&perline=8" alt="Frontend" />
+
+**Backend & databases**<br />
+<img src="https://skillicons.dev/icons?i=nodejs,express,mongodb,firebase&perline=8" alt="Backend and databases" />
+
+**Tools & deployment**<br />
+<img src="https://skillicons.dev/icons?i=git,github,webstorm,vercel,vscode&perline=8" alt="Tools" />
+<a href="https://render.com"><img src="https://img.shields.io/badge/Render-46E3B7?style=for-the-badge&logo=render&logoColor=black" alt="Render" height="48" /></a>
+
+</div>
+
+---
+
+## 📊 GitHub stats
+
+<div align="center">
+  <img height="170" src="https://github-readme-stats.vercel.app/api?username=mishraaviral7002&show_icons=true&theme=tokyonight&hide_border=true&include_all_commits=true&count_private=true" alt="GitHub stats" />
+  <img height="170" src="https://github-readme-stats.vercel.app/api/top-langs/?username=mishraaviral7002&layout=compact&theme=tokyonight&hide_border=true" alt="Top languages" />
+  <br /><br />
+  <img src="https://github-readme-streak-stats.herokuapp.com/?user=mishraaviral7002&theme=tokyonight&hide_border=true" alt="GitHub streak" />
+</div>
+
+---
+
+## 🧠 Competitive programming
+
+<div align="center">
+  <a href="https://leetcode.com/u/YOUR_LEETCODE_USERNAME/">
+    <img src="https://img.shields.io/badge/LeetCode-Profile-FFA116?style=for-the-badge&logo=leetcode&logoColor=black" alt="LeetCode" />
+  </a>
+</div>
+
+---
+
+<div align="center">
+  <img src="https://readme-typing-svg.demolab.com?font=Fira+Code&size=16&duration=4000&pause=1500&color=0E9F92&center=true&vCenter=true&width=520&lines=Think+together.+Build+smarter.;Open+to+internships+and+collaborations." alt="Footer typing animation" />
+  <img width="100%" src="https://capsule-render.vercel.app/api?type=waving&height=110&color=0:0E9F92,100:6D5BF6&section=footer" alt="" />
+</div>
