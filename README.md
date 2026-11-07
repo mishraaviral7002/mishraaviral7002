@@ -14,7 +14,7 @@
   <p>
     <a href="https://www.linkedin.com/in/aviral-mishra-9ba02b348/"><img src="https://img.shields.io/badge/LinkedIn-Connect-0A66C2?style=for-the-badge&logo=linkedin&logoColor=white" alt="LinkedIn" /></a>
     <a href="mailto:aviralmishra7002@gmail.com"><img src="https://img.shields.io/badge/Email-Say%20hello-6D5BF6?style=for-the-badge&logo=gmail&logoColor=white" alt="Email" /></a>
-    <a href="https://converge-alpha-pearl.vercel.app/"><img src="https://img.shields.io/badge/Live-Converge-0E9F92?style=for-the-badge&logo=vercel&logoColor=white" alt="Converge live demo" /></a>
+    <a href="https://converge-sq19.vercel.app/"><img src="https://img.shields.io/badge/Live-Converge-0E9F92?style=for-the-badge&logo=vercel&logoColor=white" alt="Converge live demo" /></a>
   </p>
 </div>
 
