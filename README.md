@@ -51,10 +51,10 @@ I'm an Information Technology Engineering student who loves turning ideas into w
 <img src="assets/heading-activity.svg" width="100%" alt="Activity" />
 
 <div align="center">
-  <img height="170" src="https://github-readme-stats.vercel.app/api?username=mishraaviral7002&show_icons=true&theme=tokyonight&hide_border=true&include_all_commits=true&count_private=true" alt="GitHub stats" />
-  <img height="170" src="https://github-readme-stats.vercel.app/api/top-langs/?username=mishraaviral7002&layout=compact&theme=tokyonight&hide_border=true" alt="Top languages" />
+  <img src="assets/github-stats.svg" width="430" alt="GitHub stats" />
+  <img src="assets/languages.svg" width="430" alt="Top languages" />
   <br /><br />
-  <img width="95%" src="https://github-readme-activity-graph.vercel.app/graph?username=mishraaviral7002&theme=tokyo-night&hide_border=true&area=true&custom_title=Contribution%20Activity" alt="Contribution graph" />
+  <img src="assets/activity.svg" width="100%" alt="Contribution activity graph" />
   <br /><br />
   <img src="https://raw.githubusercontent.com/mishraaviral7002/mishraaviral7002/output/github-contribution-grid-snake-dark.svg" alt="Contribution snake" />
 </div>
