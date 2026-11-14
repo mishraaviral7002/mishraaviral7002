@@ -1,0 +1,25 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="280" height="176" viewBox="0 0 280 176" role="img" aria-label="Converge AI: Next lead: an assistant that helps teams on the board.">
+<style>
+.no{font:600 11px 'Fira Code','SFMono-Regular',Consolas,'Liberation Mono',Menlo,monospace;letter-spacing:2px;fill:#f59e0b}
+.st{font:600 10px 'Fira Code','SFMono-Regular',Consolas,'Liberation Mono',Menlo,monospace;letter-spacing:1.5px;fill:#f59e0b}
+.ti{font:800 22px 'Segoe UI',Ubuntu,'Helvetica Neue',Arial,sans-serif;fill:#e6edf7}
+.de{font:500 12.5px 'Segoe UI',Ubuntu,'Helvetica Neue',Arial,sans-serif;fill:#9fb0c8}
+.tg{font:600 11px 'Segoe UI',Ubuntu,'Helvetica Neue',Arial,sans-serif;fill:#e6edf7}
+.bd{fill:none;stroke:#f59e0b;stroke-width:1.6;stroke-linecap:round;stroke-dasharray:90 790;animation:run 5s linear infinite}
+@keyframes run{to{stroke-dashoffset:-880}}
+.pl{animation:pulse 1.6s ease-in-out infinite}
+@keyframes pulse{50%{opacity:.2}}
+.fu{opacity:0;animation:fu .8s cubic-bezier(.2,.8,.2,1) forwards}
+@keyframes fu{from{opacity:0;transform:translateY(8px)}to{opacity:1;transform:none}}
+</style>
+<rect x="1" y="1" width="278" height="174" rx="14" fill="#0e1524" stroke="#1f2a3d"/>
+<rect class="bd" x="1" y="1" width="278" height="174" rx="14"/>
+<g class="fu" style="animation-delay:.1s">
+  <text class="no" x="20" y="32">CASE #003</text>
+  <circle class="pl" cx="221" cy="28" r="3.5" fill="#f59e0b"/>
+  <text class="st" x="262" y="32" text-anchor="end">OPEN</text>
+</g>
+<text class="ti fu" x="20" y="68" style="animation-delay:.2s">Converge AI</text>
+<g class="fu" style="animation-delay:.3s"><text class="de" x="20" y="92">Next lead: an assistant that</text><text class="de" x="20" y="110">helps teams on the board.</text></g>
+<g class="fu" style="animation-delay:0.4s"><rect x="20.5" y="134.5" width="32" height="22" rx="11" fill="#161f33" stroke="%LINE%"/><text class="tg" x="36.0" y="149" text-anchor="middle">AI</text></g><g class="fu" style="animation-delay:0.5s"><rect x="60.5" y="134.5" width="64" height="22" rx="11" fill="#161f33" stroke="%LINE%"/><text class="tg" x="92.0" y="149" text-anchor="middle">Next up</text></g>
+</svg>

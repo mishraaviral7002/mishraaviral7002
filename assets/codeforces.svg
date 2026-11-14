@@ -1,0 +1,39 @@
+
+<svg xmlns="http://www.w3.org/2000/svg" width="430" height="200" viewBox="0 0 430 200" role="img" aria-label="Live competitive programming rating card">
+<defs>
+  <linearGradient id="ar" x1="0" y1="0" x2="0" y2="1"><stop offset="0" stop-color="#22c55e" stop-opacity=".35"/><stop offset="1" stop-color="#22c55e" stop-opacity="0"/></linearGradient>
+</defs>
+<style>
+.hd{font:600 11px 'Fira Code','SFMono-Regular',Consolas,'Liberation Mono',Menlo,monospace;letter-spacing:2px;fill:#9fb0c8}
+.big{font:800 56px 'Segoe UI',Ubuntu,'Helvetica Neue',Arial,sans-serif;fill:#22c55e}
+.rk{font:700 13px 'Fira Code','SFMono-Regular',Consolas,'Liberation Mono',Menlo,monospace;letter-spacing:3px;fill:#22c55e}
+.lb{font:600 10px 'Fira Code','SFMono-Regular',Consolas,'Liberation Mono',Menlo,monospace;letter-spacing:1.5px;fill:#9fb0c8}
+.vl{font:800 18px 'Segoe UI',Ubuntu,'Helvetica Neue',Arial,sans-serif;fill:#e6edf7}
+.st{font:500 9px 'Fira Code','SFMono-Regular',Consolas,'Liberation Mono',Menlo,monospace;fill:#5b6b88}
+.pl{animation:pulse 1.6s ease-in-out infinite}
+@keyframes pulse{50%{opacity:.2}}
+.fu{opacity:0;animation:fu .8s cubic-bezier(.2,.8,.2,1) forwards}
+@keyframes fu{from{opacity:0;transform:translateY(8px)}to{opacity:1;transform:none}}
+.line{fill:none;stroke:#22c55e;stroke-width:2;stroke-linecap:round;stroke-linejoin:round;stroke-dasharray:1;stroke-dashoffset:1;animation:draw 2.2s .3s ease forwards}
+@keyframes draw{to{stroke-dashoffset:0}}
+.area{opacity:0;animation:fade 1s 1.8s forwards}
+@keyframes fade{to{opacity:1}}
+.ring{transform-box:fill-box;transform-origin:center;animation:ping 2s ease-out infinite}
+@keyframes ping{0%{transform:scale(1);opacity:.7}100%{transform:scale(3);opacity:0}}
+</style>
+<rect x=".5" y=".5" width="429" height="199" rx="14" fill="#0e1524" stroke="#1f2a3d"/>
+<circle class="pl" cx="26" cy="23" r="4" fill="#22c55e"/>
+<text class="hd" x="38" y="27">CODEFORCES · LIVE</text>
+<g class="fu" style="animation-delay:.1s"><text class="big" x="22" y="92">1235</text><text class="rk" x="26" y="116">PUPIL</text></g>
+<g class="fu" style="animation-delay:.25s">
+  <text class="lb" x="236" y="48">MAX RATING</text><text class="vl" x="236" y="70">—</text>
+  <text class="lb" x="330" y="48">MAX RANK</text><text class="vl" x="330" y="70" style="font-size:14px">—</text>
+  <text class="lb" x="236" y="94">CONTESTS</text><text class="vl" x="236" y="116">—</text>
+  <text class="lb" x="330" y="94">SOLVED</text><text class="vl" x="330" y="116">—</text>
+</g>
+<path class="area" d="M24.0 158.0 L406.0 158.0 L406 182 L24 182 Z" fill="url(#ar)"/>
+<path class="line" pathLength="1" d="M24.0 158.0 L406.0 158.0"/>
+<circle cx="406.0" cy="158.0" r="3.5" fill="#22c55e"/>
+<circle class="ring" cx="406.0" cy="158.0" r="3.5" fill="none" stroke="#22c55e"/>
+<text class="st" x="406" y="192" text-anchor="end">awaiting first sync</text>
+</svg>

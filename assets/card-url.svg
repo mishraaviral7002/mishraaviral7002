@@ -1,0 +1,25 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="280" height="176" viewBox="0 0 280 176" role="img" aria-label="URL Shortener: Turn long links into short, tidy ones you can share.">
+<style>
+.no{font:600 11px 'Fira Code','SFMono-Regular',Consolas,'Liberation Mono',Menlo,monospace;letter-spacing:2px;fill:#f59e0b}
+.st{font:600 10px 'Fira Code','SFMono-Regular',Consolas,'Liberation Mono',Menlo,monospace;letter-spacing:1.5px;fill:#8b7cff}
+.ti{font:800 22px 'Segoe UI',Ubuntu,'Helvetica Neue',Arial,sans-serif;fill:#e6edf7}
+.de{font:500 12.5px 'Segoe UI',Ubuntu,'Helvetica Neue',Arial,sans-serif;fill:#9fb0c8}
+.tg{font:600 11px 'Segoe UI',Ubuntu,'Helvetica Neue',Arial,sans-serif;fill:#e6edf7}
+.bd{fill:none;stroke:#8b7cff;stroke-width:1.6;stroke-linecap:round;stroke-dasharray:90 790;animation:run 5s linear infinite}
+@keyframes run{to{stroke-dashoffset:-880}}
+.pl{animation:pulse 1.6s ease-in-out infinite}
+@keyframes pulse{50%{opacity:.2}}
+.fu{opacity:0;animation:fu .8s cubic-bezier(.2,.8,.2,1) forwards}
+@keyframes fu{from{opacity:0;transform:translateY(8px)}to{opacity:1;transform:none}}
+</style>
+<rect x="1" y="1" width="278" height="174" rx="14" fill="#0e1524" stroke="#1f2a3d"/>
+<rect class="bd" x="1" y="1" width="278" height="174" rx="14"/>
+<g class="fu" style="animation-delay:.1s">
+  <text class="no" x="20" y="32">CASE #002</text>
+  <circle class="pl" cx="184" cy="28" r="3.5" fill="#8b7cff"/>
+  <text class="st" x="262" y="32" text-anchor="end">ON GITHUB</text>
+</g>
+<text class="ti fu" x="20" y="68" style="animation-delay:.2s">URL Shortener</text>
+<g class="fu" style="animation-delay:.3s"><text class="de" x="20" y="92">Turn long links into short,</text><text class="de" x="20" y="110">tidy ones you can share.</text></g>
+<g class="fu" style="animation-delay:0.4s"><rect x="20.5" y="134.5" width="64" height="22" rx="11" fill="#161f33" stroke="%LINE%"/><text class="tg" x="52.0" y="149" text-anchor="middle">Web app</text></g><g class="fu" style="animation-delay:0.5s"><rect x="92.5" y="134.5" width="64" height="22" rx="11" fill="#161f33" stroke="%LINE%"/><text class="tg" x="124.0" y="149" text-anchor="middle">Backend</text></g>
+</svg>

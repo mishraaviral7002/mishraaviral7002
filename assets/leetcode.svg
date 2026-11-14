@@ -1,0 +1,26 @@
+
+<svg xmlns="http://www.w3.org/2000/svg" width="430" height="200" viewBox="0 0 430 200" role="img" aria-label="Live LeetCode stats card">
+<style>
+.hd{font:600 11px 'Fira Code','SFMono-Regular',Consolas,'Liberation Mono',Menlo,monospace;letter-spacing:2px;fill:#9fb0c8}
+.big{font:800 56px 'Segoe UI',Ubuntu,'Helvetica Neue',Arial,sans-serif;fill:#e6edf7}
+.lb{font:600 10px 'Fira Code','SFMono-Regular',Consolas,'Liberation Mono',Menlo,monospace;letter-spacing:1.5px;fill:#9fb0c8}
+.vl{font:800 18px 'Segoe UI',Ubuntu,'Helvetica Neue',Arial,sans-serif;fill:#e6edf7}
+.dl{font:600 12px 'Segoe UI',Ubuntu,'Helvetica Neue',Arial,sans-serif}
+.ct{font:500 11px 'Fira Code','SFMono-Regular',Consolas,'Liberation Mono',Menlo,monospace;fill:#9fb0c8}
+.st{font:500 9px 'Fira Code','SFMono-Regular',Consolas,'Liberation Mono',Menlo,monospace;fill:#5b6b88}
+.pl{animation:pulse 1.6s ease-in-out infinite}
+@keyframes pulse{50%{opacity:.2}}
+.fu{opacity:0;animation:fu .8s cubic-bezier(.2,.8,.2,1) forwards}
+@keyframes fu{from{opacity:0;transform:translateY(8px)}to{opacity:1;transform:none}}
+</style>
+<rect x=".5" y=".5" width="429" height="199" rx="14" fill="#0e1524" stroke="#1f2a3d"/>
+<circle class="pl" cx="26" cy="23" r="4" fill="#f59e0b"/>
+<text class="hd" x="38" y="27">LEETCODE · LIVE</text>
+<g class="fu" style="animation-delay:.1s"><text class="big" x="22" y="92">—</text><text class="lb" x="26" y="116">PROBLEMS SOLVED</text></g>
+<g class="fu" style="animation-delay:0.2s"><text class="dl" x="236" y="52" fill="#22c55e">Easy</text><text class="ct" x="406" y="52" text-anchor="end">—</text><rect x="236" y="60" width="170" height="6" rx="3" fill="#161f33"/><rect x="236" y="60" width="0" height="6" rx="3" fill="#22c55e"><animate attributeName="width" from="0" to="0" dur="1.3s" begin="0.50s" fill="freeze" calcMode="spline" keyTimes="0;1" keySplines=".2 .8 .2 1"/></rect></g><g class="fu" style="animation-delay:0.3s"><text class="dl" x="236" y="82" fill="#f59e0b">Medium</text><text class="ct" x="406" y="82" text-anchor="end">—</text><rect x="236" y="90" width="170" height="6" rx="3" fill="#161f33"/><rect x="236" y="90" width="0" height="6" rx="3" fill="#f59e0b"><animate attributeName="width" from="0" to="0" dur="1.3s" begin="0.65s" fill="freeze" calcMode="spline" keyTimes="0;1" keySplines=".2 .8 .2 1"/></rect></g><g class="fu" style="animation-delay:0.4s"><text class="dl" x="236" y="112" fill="#ef4444">Hard</text><text class="ct" x="406" y="112" text-anchor="end">—</text><rect x="236" y="120" width="170" height="6" rx="3" fill="#161f33"/><rect x="236" y="120" width="0" height="6" rx="3" fill="#ef4444"><animate attributeName="width" from="0" to="0" dur="1.3s" begin="0.80s" fill="freeze" calcMode="spline" keyTimes="0;1" keySplines=".2 .8 .2 1"/></rect></g>
+<g class="fu" style="animation-delay:.4s">
+  <text class="lb" x="26" y="146">GLOBAL RANK</text><text class="vl" x="26" y="168">—</text>
+  <text class="lb" x="170" y="146">CONTEST RATING</text><text class="vl" x="170" y="168">—</text>
+</g>
+<text class="st" x="406" y="192" text-anchor="end">awaiting first sync</text>
+</svg>
