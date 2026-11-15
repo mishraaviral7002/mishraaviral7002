@@ -35,5 +35,5 @@
 <path class="line" pathLength="1" d="M24.0 176.0 L58.7 163.4 L93.5 153.3 L128.2 148.8 L162.9 145.8 L197.6 142.5 L232.4 140.9 L267.1 141.4 L301.8 140.2 L336.5 143.0 L371.3 143.6 L406.0 140.0"/>
 <circle cx="406.0" cy="140.0" r="3.5" fill="#22c55e"/>
 <circle class="ring" cx="406.0" cy="140.0" r="3.5" fill="none" stroke="#22c55e"/>
-<text class="st" x="406" y="192" text-anchor="end">updated 2026-11-14</text>
+<text class="st" x="406" y="192" text-anchor="end">updated 2026-11-15</text>
 </svg>
