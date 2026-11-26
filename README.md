@@ -2,15 +2,15 @@
   <img src="assets/hero.svg" width="100%" alt="Aviral Mishra: competitive programmer and full-stack developer" />
 
   <p>
-    <a href="https://www.linkedin.com/in/aviral-mishra-9ba02b348/"><img src="https://img.shields.io/badge/LinkedIn-0b1018?style=for-the-badge&logo=linkedin&logoColor=0A66C2" alt="LinkedIn" /></a>
+    <a href="https://www.linkedin.com/in/aviral-mishra-9ba02b348/"><img src="https://img.shields.io/badge/LinkedIn-0b1018?style=for-the-badge&logo=linkedin&logoColor=ef4444" alt="LinkedIn" /></a>
     <a href="mailto:aviralmishra7002@gmail.com"><img src="https://img.shields.io/badge/Email-0b1018?style=for-the-badge&logo=gmail&logoColor=ea4335" alt="Email" /></a>
     <a href="https://leetcode.com/u/aviralmishra9876/"><img src="https://img.shields.io/badge/LeetCode-0b1018?style=for-the-badge&logo=leetcode&logoColor=ffa116" alt="LeetCode" /></a>
     <a href="https://converge-alpha-pearl.vercel.app/"><img src="https://img.shields.io/badge/Converge%20Live-0b1018?style=for-the-badge&logo=vercel&logoColor=white" alt="Converge live demo" /></a>
   </p>
 
   <p>
-    <img src="https://komarev.com/ghpvc/?username=mishraaviral7002&label=Profile%20Views&color=6D5BF6&style=flat-square" alt="Profile views" />
-    <a href="https://github.com/mishraaviral7002?tab=followers"><img src="https://img.shields.io/github/followers/mishraaviral7002?style=flat-square&logo=github&color=0E9F92" alt="Followers" /></a>
+    <img src="https://komarev.com/ghpvc/?username=mishraaviral7002&label=Profile%20Views&color=ef4444&style=flat-square" alt="Profile views" />
+    <a href="https://github.com/mishraaviral7002?tab=followers"><img src="https://img.shields.io/github/followers/mishraaviral7002?style=flat-square&logo=github&color=fb923c" alt="Followers" /></a>
     <img src="https://img.shields.io/badge/Open%20to-internships%20%26%20collabs-22c55e?style=flat-square" alt="Open to internships and collaborations" />
   </p>
 </div>
@@ -23,7 +23,7 @@ I'm an Information Technology Engineering student who loves turning ideas into w
 - 🔐 **Recently worked on:** authentication, cookie-based sessions and room-based collaboration
 - 🤖 **Next up:** an AI assistant for Converge
 - 🧩 **Practicing:** data structures and competitive programming
-- 🍵 **Fuel:** tea, always tea
+- 🐅 **Signature:** Tyger Tyger
 
 <img src="assets/heading-cases.svg" width="100%" alt="Case files" />
 
@@ -33,10 +33,10 @@ I'm an Information Technology Engineering student who loves turning ideas into w
   <a href="https://github.com/mishraaviral7002/Converge"><img src="assets/card-ai.svg" width="290" alt="Case 003: Converge AI" /></a>
 </div>
 
-<img src="assets/heading-palace.svg" width="100%" alt="Mind palace" />
+<img src="assets/heading-palace.svg" width="100%" alt="Evidence room" />
 
 <div align="center">
-  <img src="assets/palace.svg" width="100%" alt="Skills organised as five rooms in a mind palace" />
+  <img src="assets/palace.svg" width="100%" alt="Skills organised as five exhibits in an evidence room" />
   <br />
   <img src="https://skillicons.dev/icons?i=js,py,html,css,react,vite,tailwind,nodejs,express,mongodb,firebase,git,github,vercel,vscode&perline=15" alt="Tech stack" />
 </div>
@@ -62,5 +62,5 @@ I'm an Information Technology Engineering student who loves turning ideas into w
 <br />
 
 <div align="center">
-  <img src="assets/footer.svg" width="100%" alt="Observe. Deduce. Ship." />
+  <img src="assets/footer.svg" width="100%" alt="The case is still open" />
 </div>
