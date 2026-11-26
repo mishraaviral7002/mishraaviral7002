@@ -23,12 +23,12 @@ DEMO = os.environ.get("DEMO") == "1"
 C = dict(
     SANS="'Segoe UI',Ubuntu,'Helvetica Neue',Arial,sans-serif",
     MONO="'Fira Code','SFMono-Regular',Consolas,'Liberation Mono',Menlo,monospace",
-    BG="#0b1018", PANEL="#0e1524", LINE="#1f2a3d",
-    VIOLET="#8b7cff", TEAL="#2dd4bf", AMBER="#f59e0b", TEXT="#e6edf7", MUTED="#9fb0c8",
+    BG="#0c0a0a", PANEL="#120d0d", LINE="#2e1c1c",
+    VIOLET="#ef4444", TEAL="#fb923c", AMBER="#f59e0b", TEXT="#f3ece8", MUTED="#b8a9a3",
 )
 
 RANK_COL = {
-    "unrated": "#9fb0c8", "newbie": "#9ca3af", "pupil": "#22c55e", "specialist": "#2dd4bf",
+    "unrated": "#b8a9a3", "newbie": "#9ca3af", "pupil": "#22c55e", "specialist": "#2dd4bf",
     "expert": "#6b8cff", "candidate master": "#c084fc", "master": "#fb923c",
     "international master": "#fb923c", "grandmaster": "#f87171",
     "international grandmaster": "#f87171", "legendary grandmaster": "#f87171",
@@ -132,7 +132,7 @@ CF_SVG = """
 .rk{font:700 13px %MONO%;letter-spacing:3px;fill:%COL%}
 .lb{font:600 10px %MONO%;letter-spacing:1.5px;fill:%MUTED%}
 .vl{font:800 18px %SANS%;fill:%TEXT%}
-.st{font:500 9px %MONO%;fill:#5b6b88}
+.st{font:500 9px %MONO%;fill:#7a6561}
 .pl{animation:pulse 1.6s ease-in-out infinite}
 @keyframes pulse{50%{opacity:.2}}
 .fu{opacity:0;animation:fu .8s cubic-bezier(.2,.8,.2,1) forwards}
@@ -165,7 +165,7 @@ CF_SVG = """
 
 def render_cf(d, stamp):
     rank = (d["rank"] or "unrated").lower()
-    col = RANK_COL.get(rank, "#9fb0c8")
+    col = RANK_COL.get(rank, "#b8a9a3")
     series = list(d["series"]) or [d["rating"], d["rating"]]
     if len(series) < 2:
         series = series * 2
@@ -195,7 +195,7 @@ LC_SVG = """
 .vl{font:800 18px %SANS%;fill:%TEXT%}
 .dl{font:600 12px %SANS%}
 .ct{font:500 11px %MONO%;fill:%MUTED%}
-.st{font:500 9px %MONO%;fill:#5b6b88}
+.st{font:500 9px %MONO%;fill:#7a6561}
 .pl{animation:pulse 1.6s ease-in-out infinite}
 @keyframes pulse{50%{opacity:.2}}
 .fu{opacity:0;animation:fu .8s cubic-bezier(.2,.8,.2,1) forwards}
@@ -228,7 +228,7 @@ def render_lc(d, stamp):
             f'<g class="fu" style="animation-delay:{0.2 + i * 0.1:.1f}s">'
             f'<text class="dl" x="236" y="{y}" fill="{col}">{lab}</text>'
             f'<text class="ct" x="406" y="{y}" text-anchor="end">{fmt(cnt)}{" / " + fmt(tot) if tot else ""}</text>'
-            f'<rect x="236" y="{y + 8}" width="170" height="6" rx="3" fill="#161f33"/>'
+            f'<rect x="236" y="{y + 8}" width="170" height="6" rx="3" fill="#1c1313"/>'
             f'<rect x="236" y="{y + 8}" width="0" height="6" rx="3" fill="{col}">'
             f'<animate attributeName="width" from="0" to="{bw}" dur="1.3s" begin="{0.5 + i * 0.15:.2f}s" fill="freeze" calcMode="spline" keyTimes="0;1" keySplines=".2 .8 .2 1"/></rect></g>'
         )

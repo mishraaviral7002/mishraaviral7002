@@ -20,10 +20,10 @@ DEMO = os.environ.get("DEMO") == "1"
 C = dict(
     SANS="'Segoe UI',Ubuntu,'Helvetica Neue',Arial,sans-serif",
     MONO="'Fira Code','SFMono-Regular',Consolas,'Liberation Mono',Menlo,monospace",
-    BG="#0b1018", PANEL="#0e1524", LINE="#1f2a3d",
-    VIOLET="#8b7cff", TEAL="#2dd4bf", AMBER="#f59e0b", TEXT="#e6edf7", MUTED="#9fb0c8",
+    BG="#0c0a0a", PANEL="#120d0d", LINE="#2e1c1c",
+    VIOLET="#ef4444", TEAL="#fb923c", AMBER="#f59e0b", TEXT="#f3ece8", MUTED="#b8a9a3",
 )
-FALLBACK = ["#8b7cff", "#2dd4bf", "#f59e0b", "#f472b6", "#60a5fa", "#9ca3af"]
+FALLBACK = ["#ef4444", "#fb923c", "#f59e0b", "#f472b6", "#60a5fa", "#9ca3af"]
 
 
 def tpl(s, **kw):
@@ -105,7 +105,7 @@ BASE_CSS = """
 .hd{font:600 11px %MONO%;letter-spacing:2px;fill:%MUTED%}
 .lb{font:600 10px %MONO%;letter-spacing:1.5px;fill:%MUTED%}
 .vl{font:800 30px %SANS%;fill:%TEXT%}
-.st{font:500 9px %MONO%;fill:#5b6b88}
+.st{font:500 9px %MONO%;fill:#7a6561}
 .pl{animation:pulse 1.6s ease-in-out infinite}
 @keyframes pulse{50%{opacity:.2}}
 .fu{opacity:0;animation:fu .8s cubic-bezier(.2,.8,.2,1) forwards}
@@ -161,7 +161,7 @@ def render_langs(d, stamp):
 </style>
 <rect x=".5" y=".5" width="429" height="199" rx="14" fill="%PANEL%" stroke="%LINE%"/>
 <circle class="pl" cx="26" cy="23" r="4" fill="%VIOLET%"/><text class="hd" x="38" y="27">TOP LANGUAGES · LIVE</text>
-<rect x="24" y="48" width="382" height="12" rx="6" fill="#161f33"/>
+<rect x="24" y="48" width="382" height="12" rx="6" fill="#1c1313"/>
 <g clip-path="url(#rev)">%BAR%</g>
 %LEGEND%%EMPTY%
 <text class="st" x="406" y="192" text-anchor="end">%STAMP%</text>
@@ -193,7 +193,7 @@ def render_activity(d, stamp):
 <linearGradient id="ln" x1="0" x2="1"><stop offset="0" stop-color="%VIOLET%"/><stop offset="1" stop-color="%TEAL%"/></linearGradient></defs>
 <style>%CSS%
 .tot{font:800 16px %SANS%;fill:%TEXT%}
-.mo{font:500 10px %MONO%;fill:#5b6b88}
+.mo{font:500 10px %MONO%;fill:#7a6561}
 .line{fill:none;stroke:url(#ln);stroke-width:2.2;stroke-linecap:round;stroke-linejoin:round;stroke-dasharray:1;stroke-dashoffset:1;animation:draw 2.6s .3s ease forwards}
 @keyframes draw{to{stroke-dashoffset:0}}
 .area{opacity:0;animation:fade 1s 2s forwards}

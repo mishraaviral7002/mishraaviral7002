@@ -9,8 +9,8 @@ OUT.mkdir(exist_ok=True)
 C = dict(
     SANS="'Segoe UI',Ubuntu,'Helvetica Neue',Arial,sans-serif",
     MONO="'Fira Code','SFMono-Regular',Consolas,'Liberation Mono',Menlo,monospace",
-    BG="#0b1018", BG2="#121a2c", PANEL="#0e1524", LINE="#1f2a3d",
-    VIOLET="#8b7cff", TEAL="#2dd4bf", AMBER="#f59e0b", TEXT="#e6edf7", MUTED="#9fb0c8",
+    BG="#0c0a0a", BG2="#1a0f0f", PANEL="#120d0d", LINE="#2e1c1c",
+    VIOLET="#ef4444", TEAL="#fb923c", AMBER="#f59e0b", TEXT="#f3ece8", MUTED="#b8a9a3",
 )
 
 
@@ -38,6 +38,9 @@ HERO = """
   <radialGradient id="bob" cx=".35" cy=".35" r=".8"><stop offset="0" stop-color="#fde68a"/><stop offset="1" stop-color="#b45309"/></radialGradient>
   <radialGradient id="glow" cx=".5" cy=".5" r=".5"><stop offset="0" stop-color="%AMBER%" stop-opacity=".55"/><stop offset="1" stop-color="%AMBER%" stop-opacity="0"/></radialGradient>
   <pattern id="grid" width="36" height="36" patternUnits="userSpaceOnUse"><path d="M36 0H0V36" fill="none" stroke="#ffffff" stroke-opacity=".035"/></pattern>
+  <radialGradient id="eye" cx=".5" cy=".5" r=".6"><stop offset="0" stop-color="#fff3c4"/><stop offset=".35" stop-color="#fbbf24"/><stop offset="1" stop-color="#ea580c"/></radialGradient>
+  <radialGradient id="halo" cx=".5" cy=".5" r=".5"><stop offset="0" stop-color="#ea580c" stop-opacity=".45"/><stop offset="1" stop-color="#ea580c" stop-opacity="0"/></radialGradient>
+  <linearGradient id="tyg" x1="0" x2="1"><stop offset="0" stop-color="%VIOLET%"/><stop offset="1" stop-color="%AMBER%"/></linearGradient>
   __CLIPS__
 </defs>
 <style>
@@ -53,12 +56,17 @@ HERO = """
 .ln{font:500 15px %MONO%;fill:%TEXT%}
 .cur{animation:blink 1s steps(1) infinite}
 @keyframes blink{50%{opacity:0}}
-.steam{fill:none;stroke:#cfe3ff;stroke-width:2;stroke-linecap:round;stroke-dasharray:30;opacity:0;animation:steam 3.2s ease-in-out infinite}
-@keyframes steam{0%{stroke-dashoffset:30;opacity:0}40%{opacity:.7}100%{stroke-dashoffset:-30;opacity:0}}
+.fl{animation:fl 2.6s ease-in-out infinite;transform-box:fill-box;transform-origin:center}
+@keyframes fl{0%,100%{opacity:.65;transform:scale(1)}50%{opacity:1;transform:scale(1.12)}}
+.bl{animation:bl 6s ease-in-out infinite;transform-box:fill-box;transform-origin:center}
+@keyframes bl{0%,90%,100%{transform:scaleY(1)}94%{transform:scaleY(.06)}}
+.em{opacity:0;animation:em 4s linear infinite}
+@keyframes em{0%{opacity:0;transform:translateY(0)}15%{opacity:.9}100%{opacity:0;transform:translateY(-110px)}}
+.sp{animation:sp 7s ease-in-out infinite}
+@keyframes sp{50%{opacity:.6}}
+.tt{font:800 18px %SANS%;letter-spacing:5px;fill:url(#tyg)}
 .pulse{animation:pulse 1.8s ease-in-out infinite}
 @keyframes pulse{50%{opacity:.25}}
-.glow{animation:glow 3.6s ease-in-out infinite;transform-box:fill-box;transform-origin:center}
-@keyframes glow{50%{transform:scale(1.25);opacity:.6}}
 </style>
 
 <rect width="900" height="340" rx="18" fill="url(#bg)"/>
@@ -66,7 +74,7 @@ HERO = """
 __STARS__
 
 <!-- label, name, subtitle, chips -->
-<g class="fu" style="animation-delay:.1s"><circle class="pulse" cx="52" cy="56" r="4" fill="%AMBER%"/><text class="lab" x="64" y="60">CASE FILE 001 · SUBJECT PROFILE</text></g>
+<g class="fu" style="animation-delay:.1s"><circle class="pulse" cx="52" cy="56" r="4" fill="%AMBER%"/><text class="lab" x="64" y="60">CASE FILE 001 · UNSOLVED</text></g>
 <text class="nm fu" x="46" y="122" style="animation-delay:.25s">Aviral Mishra</text>
 <text class="sub fu" x="48" y="154" style="animation-delay:.45s">Competitive programmer  ·  Full-stack developer</text>
 __CHIPS__
@@ -75,48 +83,56 @@ __CHIPS__
 <g class="fu" style="animation-delay:.9s">
   <rect x="48.5" y="214.5" width="580" height="94" rx="10" fill="%PANEL%" stroke="%LINE%"/>
   <circle cx="68" cy="228" r="4" fill="#ef4444"/><circle cx="83" cy="228" r="4" fill="%AMBER%"/><circle cx="98" cy="228" r="4" fill="#22c55e"/>
-  <text class="mono" x="116" y="232" font-size="11">cold_reading.sh</text>
-  <text class="mono" x="66" y="258"><tspan fill="%AMBER%">$</tspan> observe --visitor</text>
+  <text class="mono" x="116" y="232" font-size="11">calling_card.sh</text>
+  <text class="mono" x="66" y="258"><tspan fill="%AMBER%">$</tspan> open case_file --unsolved</text>
   <text class="mono" x="66" y="284" style="fill:%AMBER%">&gt;</text>
   __TEXTS__
   __CURSORS__
 </g>
 
-<!-- hypnotist's pendulum -->
-<path d="M723 154 A140 140 0 0 0 837 154" fill="none" stroke="%LINE%" stroke-dasharray="3 5"/>
-<rect x="752" y="18" width="56" height="8" rx="4" fill="#26324a"/>
-<g>
-  <animateTransform attributeName="transform" type="rotate" values="24 780 26;-24 780 26;24 780 26" keyTimes="0;.5;1" calcMode="spline" keySplines=".45 0 .55 1;.45 0 .55 1" dur="3.6s" repeatCount="indefinite"/>
-  <line x1="780" y1="26" x2="780" y2="166" stroke="#6b7a99" stroke-width="1.5"/>
-  <circle class="glow" cx="780" cy="166" r="34" fill="url(#glow)"/>
-  <circle cx="780" cy="166" r="14" fill="url(#bob)" stroke="#fcd34d" stroke-opacity=".6"/>
-  <circle cx="780" cy="166" r="7" fill="none" stroke="#7c2d12" stroke-opacity=".5"/>
-</g>
-<circle cx="780" cy="26" r="4" fill="%MUTED%"/>
-
-<!-- cup of tea -->
-<ellipse cx="780" cy="292" rx="44" ry="6" fill="#1a2438"/>
-<path d="M808 254 H816 A9 9 0 0 1 816 272 H805" fill="none" stroke="%TEAL%" stroke-opacity=".7" stroke-width="1.5"/>
-<path d="M752 248 H808 V262 A28 24 0 0 1 752 262 Z" fill="#16203a" stroke="%TEAL%" stroke-opacity=".7" stroke-width="1.5"/>
-<ellipse cx="780" cy="248" rx="28" ry="4" fill="#6b3a12"/>
-<path class="steam" style="animation-delay:0s" d="M770 238 q-5 -7 0 -14 t0 -14"/>
-<path class="steam" style="animation-delay:1s" d="M780 238 q-5 -7 0 -14 t0 -14"/>
-<path class="steam" style="animation-delay:2s" d="M790 238 q-5 -7 0 -14 t0 -14"/>
+__TYGER__
 </svg>
 """
+
+
+def tyger():
+    rnd = random.Random(5)
+    stripes = "".join(
+        f'<path class="sp" style="animation-delay:{i * 0.9:.1f}s" d="M900 {y} L{x} {t} L900 {y + 16} Z" fill="#7f1d1d" opacity=".45"/>'
+        for i, (y, x, t) in enumerate([(30, 820, 56), (92, 796, 114), (206, 808, 232), (268, 826, 292), (318, 846, 334)])
+    )
+
+    def eye(cx, flip):
+        sc = "-1 1" if flip else "1 1"
+        return (
+            f'<g transform="translate({cx} 150) scale({sc})"><circle class="fl" r="52" fill="url(#halo)"/>'
+            '<g class="bl"><path d="M-34 -4 Q-2 -24 30 6 Q-2 14 -34 -4 Z" fill="url(#eye)"/>'
+            '<ellipse cx="-2" cy="1" rx="4.5" ry="11" fill="#0c0a0a"/><circle cx="-5" cy="-4" r="1.6" fill="#fff7d6"/></g></g>'
+        )
+
+    embers = "".join(
+        f'<circle class="em" cx="{700 + i * 17}" cy="{236 + rnd.randint(0, 14)}" r="{rnd.choice([1.4, 1.8, 2.2])}" fill="#fbbf24" '
+        f'style="animation-delay:{rnd.uniform(0, 4):.2f}s;animation-duration:{rnd.uniform(3, 5):.1f}s"/>'
+        for i in range(11)
+    )
+    return (
+        "<!-- the tyger -->" + stripes + eye(738, False) + eye(822, True) + embers
+        + '<text class="tt fl" x="780" y="268" text-anchor="middle">TYGER TYGER</text>'
+        + '<text class="mono" x="780" y="290" text-anchor="middle" style="font-size:10px;letter-spacing:3px">CASE STATUS · OPEN</text>'
+    )
 
 
 def hero():
     rnd = random.Random(11)
     stars = "".join(
         f'<circle class="tw" cx="{rnd.randint(24, 690)}" cy="{rnd.randint(14, 200)}" r="{rnd.choice([1, 1.2, 1.5])}" '
-        f'fill="#cfe3ff" style="animation-delay:{rnd.uniform(0, 4):.2f}s"/>'
+        f'fill="#ffd9b0" style="animation-delay:{rnd.uniform(0, 4):.2f}s"/>'
         for _ in range(26)
     )
     lines = [
-        "You scrolled past the banner first. Visual thinker.",
-        "Checking whether these projects are real? They are.",
-        "You will click a link within ten seconds. Go ahead.",
+        "Tyger Tyger. Someone left a mark on this page.",
+        "Case status: unsolved. The evidence is in the repos.",
+        "Prime suspect: a builder open to internships.",
     ]
     n = len(lines)
     seg = 1 / n
@@ -153,14 +169,14 @@ def hero():
         w = int(len(label) * 7.4 + 30)
         chips.append(
             f'<g class="fu" style="animation-delay:{0.6 + j * 0.12:.2f}s">'
-            f'<rect x="{x + .5}" y="172.5" width="{w}" height="26" rx="13" fill="#161f33" stroke="%LINE%"/>'
+            f'<rect x="{x + .5}" y="172.5" width="{w}" height="26" rx="13" fill="#1c1313" stroke="%LINE%"/>'
             f'<circle cx="{x + 14}" cy="185.5" r="3" fill="%TEAL%"/>'
             f'<text class="chip" x="{x + 24}" y="190">{esc(label)}</text></g>'
         )
         x += w + 10
     svg = HERO.replace("__CLIPS__", "".join(clips)).replace("__STARS__", stars)
     svg = svg.replace("__TEXTS__", "".join(texts)).replace("__CURSORS__", "".join(cursors))
-    svg = svg.replace("__CHIPS__", "".join(chips))
+    svg = svg.replace("__CHIPS__", "".join(chips)).replace("__TYGER__", tyger())
     save("hero.svg", tpl(svg))
 
 
@@ -189,10 +205,10 @@ HEAD = """
 
 def headings():
     for slug, num, title, sub in [
-        ("about", "// 01", "About me", "observe"),
-        ("cases", "// 02", "Case files", "deduce"),
-        ("palace", "// 03", "Mind palace", "remember"),
-        ("stats", "// 04", "Live stats", "evidence"),
+        ("about", "// 01", "About me", "the suspect"),
+        ("cases", "// 02", "Case files", "open cases"),
+        ("palace", "// 03", "Evidence room", "exhibits"),
+        ("stats", "// 04", "Live stats", "surveillance"),
         ("activity", "// 05", "Activity", "patterns"),
     ]:
         save(f"heading-{slug}.svg", tpl(HEAD, NUM=num, TITLE=title, SUB=sub))
@@ -233,7 +249,7 @@ def card(slug, num, status, sc, title, l1, l2, tags):
     for j, t in enumerate(tags):
         w = int(len(t) * 6.3 + 20)
         tag_svg.append(
-            f'<g class="fu" style="animation-delay:{0.4 + j * 0.1:.1f}s"><rect x="{x + .5}" y="134.5" width="{w}" height="22" rx="11" fill="#161f33" stroke="%LINE%"/>'
+            f'<g class="fu" style="animation-delay:{0.4 + j * 0.1:.1f}s"><rect x="{x + .5}" y="134.5" width="{w}" height="22" rx="11" fill="#1c1313" stroke="%LINE%"/>'
             f'<text class="tg" x="{x + w / 2}" y="149" text-anchor="middle">{esc(t)}</text></g>'
         )
         x += w + 8
@@ -248,7 +264,7 @@ def card(slug, num, status, sc, title, l1, l2, tags):
 def cards():
     card("converge", "#001", "IN PROGRESS", "#22c55e", "Converge",
          "A shared whiteboard where teams", "think together, live.", ["React", "tldraw", "Node.js"])
-    card("url", "#002", "ON GITHUB", "#8b7cff", "URL Shortener",
+    card("url", "#002", "ON GITHUB", "#ef4444", "URL Shortener",
          "Turn long links into short,", "tidy ones you can share.", ["Web app", "Backend"])
     card("ai", "#003", "OPEN", "#f59e0b", "Converge AI",
          "Next lead: an assistant that", "helps teams on the board.", ["AI", "Next up"])
@@ -257,11 +273,11 @@ def cards():
 # ───────────────────────── MIND PALACE ─────────────────────────
 def palace():
     rooms = [
-        ("ROOM 01", "The Atrium", "Frontend", ["React · Vite", "Tailwind CSS", "HTML · CSS"], "#8b7cff"),
-        ("ROOM 02", "The Engine Room", "Backend & data", ["Node.js · Express", "MongoDB", "Firebase"], "#2dd4bf"),
-        ("ROOM 03", "The Library", "Algorithms", ["Data structures", "Codeforces", "LeetCode"], "#f59e0b"),
-        ("ROOM 04", "The Gatehouse", "Security", ["Authentication", "Cookie sessions", "Protected rooms"], "#f472b6"),
-        ("ROOM 05", "The Dock", "Shipping", ["Git · GitHub", "Vercel", "Render"], "#60a5fa"),
+        ("EXHIBIT A", "The Facade", "Frontend", ["React · Vite", "Tailwind CSS", "HTML · CSS"], "#ef4444"),
+        ("EXHIBIT B", "The Machinery", "Backend & data", ["Node.js · Express", "MongoDB", "Firebase"], "#fb923c"),
+        ("EXHIBIT C", "The Archive", "Algorithms", ["Data structures", "Codeforces", "LeetCode"], "#f59e0b"),
+        ("EXHIBIT D", "The Lockbox", "Security", ["Authentication", "Cookie sessions", "Protected rooms"], "#f472b6"),
+        ("EXHIBIT E", "The Dock", "Shipping", ["Git · GitHub", "Vercel", "Render"], "#fbbf24"),
     ]
     out = []
     for i, (num, name, sub, items, col) in enumerate(rooms):
@@ -281,7 +297,7 @@ def palace():
             f'<line x1="{x + 16}" y1="94" x2="{x + 147}" y2="94" stroke="%LINE%"/>{its}</g>'
         )
     svg = """
-<svg xmlns="http://www.w3.org/2000/svg" width="900" height="190" viewBox="0 0 900 190" role="img" aria-label="Mind palace: skills organised as five rooms">
+<svg xmlns="http://www.w3.org/2000/svg" width="900" height="190" viewBox="0 0 900 190" role="img" aria-label="Evidence room: skills organised as five exhibits">
 <style>
 .rm{font:600 11px %MONO%;letter-spacing:2px}
 .rn{font:800 16px %SANS%;fill:%TEXT%}
@@ -300,13 +316,13 @@ def palace():
 def footer():
     wave = "M0 66 Q75 40 150 66 T300 66 T450 66 T600 66 T750 66 T900 66 T1050 66 T1200 66 V100 H0 Z"
     svg = """
-<svg xmlns="http://www.w3.org/2000/svg" width="900" height="100" viewBox="0 0 900 100" role="img" aria-label="Observe. Deduce. Ship.">
+<svg xmlns="http://www.w3.org/2000/svg" width="900" height="100" viewBox="0 0 900 100" role="img" aria-label="The case is still open">
 <defs><linearGradient id="g" x1="0" x2="1"><stop offset="0" stop-color="%VIOLET%"/><stop offset="1" stop-color="%TEAL%"/></linearGradient></defs>
 <style>
 .f{font:600 15px %MONO%;letter-spacing:3px;fill:%TEAL%;animation:pulse 3s ease-in-out infinite}
 @keyframes pulse{50%{opacity:.55}}
 </style>
-<text class="f" x="450" y="32" text-anchor="middle">OBSERVE · DEDUCE · SHIP</text>
+<text class="f" x="450" y="32" text-anchor="middle">THE CASE IS STILL OPEN</text>
 <path d="__WAVE__" fill="url(#g)" opacity=".35"><animateTransform attributeName="transform" type="translate" from="0 0" to="-300 0" dur="9s" repeatCount="indefinite"/></path>
 <path d="__WAVE__" fill="url(#g)" opacity=".6"><animateTransform attributeName="transform" type="translate" from="-300 8" to="0 8" dur="6s" repeatCount="indefinite"/></path>
 </svg>
