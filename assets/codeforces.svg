@@ -4,12 +4,12 @@
   <linearGradient id="ar" x1="0" y1="0" x2="0" y2="1"><stop offset="0" stop-color="#22c55e" stop-opacity=".35"/><stop offset="1" stop-color="#22c55e" stop-opacity="0"/></linearGradient>
 </defs>
 <style>
-.hd{font:600 11px 'Fira Code','SFMono-Regular',Consolas,'Liberation Mono',Menlo,monospace;letter-spacing:2px;fill:#9fb0c8}
+.hd{font:600 11px 'Fira Code','SFMono-Regular',Consolas,'Liberation Mono',Menlo,monospace;letter-spacing:2px;fill:#b8a9a3}
 .big{font:800 56px 'Segoe UI',Ubuntu,'Helvetica Neue',Arial,sans-serif;fill:#22c55e}
 .rk{font:700 13px 'Fira Code','SFMono-Regular',Consolas,'Liberation Mono',Menlo,monospace;letter-spacing:3px;fill:#22c55e}
-.lb{font:600 10px 'Fira Code','SFMono-Regular',Consolas,'Liberation Mono',Menlo,monospace;letter-spacing:1.5px;fill:#9fb0c8}
-.vl{font:800 18px 'Segoe UI',Ubuntu,'Helvetica Neue',Arial,sans-serif;fill:#e6edf7}
-.st{font:500 9px 'Fira Code','SFMono-Regular',Consolas,'Liberation Mono',Menlo,monospace;fill:#5b6b88}
+.lb{font:600 10px 'Fira Code','SFMono-Regular',Consolas,'Liberation Mono',Menlo,monospace;letter-spacing:1.5px;fill:#b8a9a3}
+.vl{font:800 18px 'Segoe UI',Ubuntu,'Helvetica Neue',Arial,sans-serif;fill:#f3ece8}
+.st{font:500 9px 'Fira Code','SFMono-Regular',Consolas,'Liberation Mono',Menlo,monospace;fill:#7a6561}
 .pl{animation:pulse 1.6s ease-in-out infinite}
 @keyframes pulse{50%{opacity:.2}}
 .fu{opacity:0;animation:fu .8s cubic-bezier(.2,.8,.2,1) forwards}
@@ -21,7 +21,7 @@
 .ring{transform-box:fill-box;transform-origin:center;animation:ping 2s ease-out infinite}
 @keyframes ping{0%{transform:scale(1);opacity:.7}100%{transform:scale(3);opacity:0}}
 </style>
-<rect x=".5" y=".5" width="429" height="199" rx="14" fill="#0e1524" stroke="#1f2a3d"/>
+<rect x=".5" y=".5" width="429" height="199" rx="14" fill="#120d0d" stroke="#2e1c1c"/>
 <circle class="pl" cx="26" cy="23" r="4" fill="#22c55e"/>
 <text class="hd" x="38" y="27">CODEFORCES · LIVE</text>
 <g class="fu" style="animation-delay:.1s"><text class="big" x="22" y="92">1241</text><text class="rk" x="26" y="116">PUPIL</text></g>
@@ -35,5 +35,5 @@
 <path class="line" pathLength="1" d="M24.0 176.0 L58.7 163.4 L93.5 153.3 L128.2 148.8 L162.9 145.8 L197.6 142.5 L232.4 140.9 L267.1 141.4 L301.8 140.2 L336.5 143.0 L371.3 143.6 L406.0 140.0"/>
 <circle cx="406.0" cy="140.0" r="3.5" fill="#22c55e"/>
 <circle class="ring" cx="406.0" cy="140.0" r="3.5" fill="none" stroke="#22c55e"/>
-<text class="st" x="406" y="192" text-anchor="end">updated 2026-11-25</text>
+<text class="st" x="406" y="192" text-anchor="end">updated 2026-11-26</text>
 </svg>
