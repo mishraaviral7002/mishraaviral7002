@@ -2,22 +2,22 @@
 <svg xmlns="http://www.w3.org/2000/svg" width="430" height="200" viewBox="0 0 430 200" role="img" aria-label="Top languages card">
 <defs><clipPath id="rev"><rect x="24" y="44" width="0" height="20" rx="6"><animate attributeName="width" from="0" to="382" dur="1.4s" begin=".2s" fill="freeze" calcMode="spline" keyTimes="0;1" keySplines=".2 .8 .2 1"/></rect></clipPath></defs>
 <style>
-.hd{font:600 11px 'Fira Code','SFMono-Regular',Consolas,'Liberation Mono',Menlo,monospace;letter-spacing:2px;fill:#9fb0c8}
-.lb{font:600 10px 'Fira Code','SFMono-Regular',Consolas,'Liberation Mono',Menlo,monospace;letter-spacing:1.5px;fill:#9fb0c8}
-.vl{font:800 30px 'Segoe UI',Ubuntu,'Helvetica Neue',Arial,sans-serif;fill:#e6edf7}
-.st{font:500 9px 'Fira Code','SFMono-Regular',Consolas,'Liberation Mono',Menlo,monospace;fill:#5b6b88}
+.hd{font:600 11px 'Fira Code','SFMono-Regular',Consolas,'Liberation Mono',Menlo,monospace;letter-spacing:2px;fill:#b8a9a3}
+.lb{font:600 10px 'Fira Code','SFMono-Regular',Consolas,'Liberation Mono',Menlo,monospace;letter-spacing:1.5px;fill:#b8a9a3}
+.vl{font:800 30px 'Segoe UI',Ubuntu,'Helvetica Neue',Arial,sans-serif;fill:#f3ece8}
+.st{font:500 9px 'Fira Code','SFMono-Regular',Consolas,'Liberation Mono',Menlo,monospace;fill:#7a6561}
 .pl{animation:pulse 1.6s ease-in-out infinite}
 @keyframes pulse{50%{opacity:.2}}
 .fu{opacity:0;animation:fu .8s cubic-bezier(.2,.8,.2,1) forwards}
 @keyframes fu{from{opacity:0;transform:translateY(8px)}to{opacity:1;transform:none}}
 
-.nm{font:600 13px 'Segoe UI',Ubuntu,'Helvetica Neue',Arial,sans-serif;fill:#e6edf7}
-.pc{font:500 12px 'Fira Code','SFMono-Regular',Consolas,'Liberation Mono',Menlo,monospace;fill:#9fb0c8}
+.nm{font:600 13px 'Segoe UI',Ubuntu,'Helvetica Neue',Arial,sans-serif;fill:#f3ece8}
+.pc{font:500 12px 'Fira Code','SFMono-Regular',Consolas,'Liberation Mono',Menlo,monospace;fill:#b8a9a3}
 </style>
-<rect x=".5" y=".5" width="429" height="199" rx="14" fill="#0e1524" stroke="#1f2a3d"/>
-<circle class="pl" cx="26" cy="23" r="4" fill="#8b7cff"/><text class="hd" x="38" y="27">TOP LANGUAGES · LIVE</text>
-<rect x="24" y="48" width="382" height="12" rx="6" fill="#161f33"/>
-<g clip-path="url(#rev)"><rect x="24.0" y="48" width="123.9" height="12" fill="#f1e05a"/><rect x="149.9" y="48" width="120.8" height="12" fill="#663399"/><rect x="272.7" y="48" width="84.3" height="12" fill="#3572A5"/><rect x="359.0" y="48" width="45.0" height="12" fill="#e34c26"/></g>
-<g class="fu" style="animation-delay:0.30s"><circle cx="28" cy="92" r="4" fill="#f1e05a"/><text class="nm" x="40" y="96">JavaScript</text><text class="pc" x="204" y="96" text-anchor="end">33.0%</text></g><g class="fu" style="animation-delay:0.38s"><circle cx="230" cy="92" r="4" fill="#663399"/><text class="nm" x="242" y="96">CSS</text><text class="pc" x="406" y="96" text-anchor="end">32.2%</text></g><g class="fu" style="animation-delay:0.46s"><circle cx="28" cy="120" r="4" fill="#3572A5"/><text class="nm" x="40" y="124">Python</text><text class="pc" x="204" y="124" text-anchor="end">22.6%</text></g><g class="fu" style="animation-delay:0.54s"><circle cx="230" cy="120" r="4" fill="#e34c26"/><text class="nm" x="242" y="124">HTML</text><text class="pc" x="406" y="124" text-anchor="end">12.3%</text></g>
-<text class="st" x="406" y="192" text-anchor="end">updated 2026-11-25</text>
+<rect x=".5" y=".5" width="429" height="199" rx="14" fill="#120d0d" stroke="#2e1c1c"/>
+<circle class="pl" cx="26" cy="23" r="4" fill="#ef4444"/><text class="hd" x="38" y="27">TOP LANGUAGES · LIVE</text>
+<rect x="24" y="48" width="382" height="12" rx="6" fill="#1c1313"/>
+<g clip-path="url(#rev)"><rect x="24.0" y="48" width="117.9" height="12" fill="#f1e05a"/><rect x="143.9" y="48" width="115.0" height="12" fill="#663399"/><rect x="261.0" y="48" width="98.3" height="12" fill="#3572A5"/><rect x="361.2" y="48" width="42.8" height="12" fill="#e34c26"/></g>
+<g class="fu" style="animation-delay:0.30s"><circle cx="28" cy="92" r="4" fill="#f1e05a"/><text class="nm" x="40" y="96">JavaScript</text><text class="pc" x="204" y="96" text-anchor="end">31.4%</text></g><g class="fu" style="animation-delay:0.38s"><circle cx="230" cy="92" r="4" fill="#663399"/><text class="nm" x="242" y="96">CSS</text><text class="pc" x="406" y="96" text-anchor="end">30.6%</text></g><g class="fu" style="animation-delay:0.46s"><circle cx="28" cy="120" r="4" fill="#3572A5"/><text class="nm" x="40" y="124">Python</text><text class="pc" x="204" y="124" text-anchor="end">26.2%</text></g><g class="fu" style="animation-delay:0.54s"><circle cx="230" cy="120" r="4" fill="#e34c26"/><text class="nm" x="242" y="124">HTML</text><text class="pc" x="406" y="124" text-anchor="end">11.7%</text></g>
+<text class="st" x="406" y="192" text-anchor="end">updated 2026-11-26</text>
 </svg>

@@ -1,17 +1,17 @@
 
 <svg xmlns="http://www.w3.org/2000/svg" width="430" height="200" viewBox="0 0 430 200" role="img" aria-label="GitHub stats card">
 <style>
-.hd{font:600 11px 'Fira Code','SFMono-Regular',Consolas,'Liberation Mono',Menlo,monospace;letter-spacing:2px;fill:#9fb0c8}
-.lb{font:600 10px 'Fira Code','SFMono-Regular',Consolas,'Liberation Mono',Menlo,monospace;letter-spacing:1.5px;fill:#9fb0c8}
-.vl{font:800 30px 'Segoe UI',Ubuntu,'Helvetica Neue',Arial,sans-serif;fill:#e6edf7}
-.st{font:500 9px 'Fira Code','SFMono-Regular',Consolas,'Liberation Mono',Menlo,monospace;fill:#5b6b88}
+.hd{font:600 11px 'Fira Code','SFMono-Regular',Consolas,'Liberation Mono',Menlo,monospace;letter-spacing:2px;fill:#b8a9a3}
+.lb{font:600 10px 'Fira Code','SFMono-Regular',Consolas,'Liberation Mono',Menlo,monospace;letter-spacing:1.5px;fill:#b8a9a3}
+.vl{font:800 30px 'Segoe UI',Ubuntu,'Helvetica Neue',Arial,sans-serif;fill:#f3ece8}
+.st{font:500 9px 'Fira Code','SFMono-Regular',Consolas,'Liberation Mono',Menlo,monospace;fill:#7a6561}
 .pl{animation:pulse 1.6s ease-in-out infinite}
 @keyframes pulse{50%{opacity:.2}}
 .fu{opacity:0;animation:fu .8s cubic-bezier(.2,.8,.2,1) forwards}
 @keyframes fu{from{opacity:0;transform:translateY(8px)}to{opacity:1;transform:none}}
 </style>
-<rect x=".5" y=".5" width="429" height="199" rx="14" fill="#0e1524" stroke="#1f2a3d"/>
+<rect x=".5" y=".5" width="429" height="199" rx="14" fill="#120d0d" stroke="#2e1c1c"/>
 <circle class="pl" cx="26" cy="23" r="4" fill="#22c55e"/><text class="hd" x="38" y="27">GITHUB · LIVE</text>
-<g class="fu" style="animation-delay:0.10s"><text class="lb" x="24" y="64">STARS</text><text class="vl" x="24" y="94" style="fill:#f59e0b">1</text></g><g class="fu" style="animation-delay:0.18s"><text class="lb" x="160" y="64">COMMITS · 1Y</text><text class="vl" x="160" y="94" style="fill:#2dd4bf">77</text></g><g class="fu" style="animation-delay:0.26s"><text class="lb" x="296" y="64">PULL REQUESTS</text><text class="vl" x="296" y="94" style="fill:#8b7cff">0</text></g><g class="fu" style="animation-delay:0.34s"><text class="lb" x="24" y="128">REPOSITORIES</text><text class="vl" x="24" y="158" style="fill:#e6edf7">10</text></g><g class="fu" style="animation-delay:0.42s"><text class="lb" x="160" y="128">FOLLOWERS</text><text class="vl" x="160" y="158" style="fill:#e6edf7">2</text></g><g class="fu" style="animation-delay:0.50s"><text class="lb" x="296" y="128">DAY STREAK</text><text class="vl" x="296" y="158" style="fill:#22c55e">0</text></g>
-<text class="st" x="406" y="192" text-anchor="end">updated 2026-11-25</text>
+<g class="fu" style="animation-delay:0.10s"><text class="lb" x="24" y="64">STARS</text><text class="vl" x="24" y="94" style="fill:#f59e0b">1</text></g><g class="fu" style="animation-delay:0.18s"><text class="lb" x="160" y="64">COMMITS · 1Y</text><text class="vl" x="160" y="94" style="fill:#fb923c">83</text></g><g class="fu" style="animation-delay:0.26s"><text class="lb" x="296" y="64">PULL REQUESTS</text><text class="vl" x="296" y="94" style="fill:#ef4444">0</text></g><g class="fu" style="animation-delay:0.34s"><text class="lb" x="24" y="128">REPOSITORIES</text><text class="vl" x="24" y="158" style="fill:#f3ece8">10</text></g><g class="fu" style="animation-delay:0.42s"><text class="lb" x="160" y="128">FOLLOWERS</text><text class="vl" x="160" y="158" style="fill:#f3ece8">2</text></g><g class="fu" style="animation-delay:0.50s"><text class="lb" x="296" y="128">DAY STREAK</text><text class="vl" x="296" y="158" style="fill:#22c55e">1</text></g>
+<text class="st" x="406" y="192" text-anchor="end">updated 2026-11-26</text>
 </svg>
